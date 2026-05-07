@@ -1,0 +1,242 @@
+body{
+      background:#0b1026;
+      padding-top: 100px;
+    }
+
+    .custom-navbar{
+      background: linear-gradient(to right,#0b1026,#111b45);
+      padding: 18px 0;
+    }
+    .navbar-toggler {
+  border: 1px solid #36b89b;
+  padding: 4px 8px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 255, 180, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+    .nav-link{
+      color: white !important;
+      font-weight: 500;
+    }
+
+    .nav-link:hover{
+      color:#4fd1c5 !important;
+    }
+
+    .logo{
+      width:40px;
+      height:40px;
+      object-fit:contain;
+    }
+
+    .login-btn{
+      color:white;
+      font-weight:600;
+    }
+
+    .start-btn{
+      background:#45d3b3;
+      border:none;
+      padding:10px 22px;
+      border-radius:14px;
+      font-weight:600;
+      color:white;
+    }
+
+    .start-btn:hover{
+      background:#36b89b;
+    }
+
+    .text{
+      background-color:#36b89c27 ;
+      color: #45d3b3;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      border-color: #45d3b28a !important;
+      
+    }
+    .h1{
+      /* font-size: 100px; */
+     font-weight: 900;
+    }
+    .span1{
+      color: rgb(241, 103, 52);
+    }
+    .span2{
+      color: #45d3b3;
+    }
+    .lead{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    }
+
+    .btn1{
+      background-color: #38dbb8 !important;
+      
+      
+    }
+
+    .icon{
+      background: linear-gradient(to right , #38dbb8, #437066);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .bb{
+      border-radius: 15px !important;
+      border: 1px solid rgb(56, 55, 55) !important;
+      transition: all 0.3s ease;
+    }
+    .bb:hover{
+      border-color: #48c5aa !important;
+      box-shadow: 0 0 10px #3c9682 !important;
+    }
+
+    .bar{
+      width: 35px;
+      height: 30px;
+      background-color: #45d3b28f;
+      border-radius: 3px;
+      opacity: 0.8;
+    }
+    .tall{
+      height: 45px;
+    }
+
+    .taller{
+      height: 50px;
+    
+    }
+    .medium{
+      height: 35px;
+    }
+
+    .small{
+      height: 20px;
+    }
+
+    .badge{
+      background-color: #437066d2;
+      color: #45d3b3;
+    }
+
+    .bi-sim{
+      background-color: rgba(241, 102, 52, 0.658);
+      color: rgb(241, 103, 52);
+      border-radius: 10px;
+    }
+
+    .small{
+      font-size: 14px;
+    }
+    .small1{
+      font-size: 11px;
+    }
+    .span1{
+      color: rgb(241, 103, 52);
+    }
+
+    .bi-reception-4{
+      color: #36b89b;
+    }
+
+    .hr{
+      color: white;
+    }
+
+    .span66{
+      color: whitesmoke;
+      font-weight: 900;
+      font-size: 30px;
+    }
+
+    
+    /* .d1{
+      background: linear-gradient(to top,#0b1026,#0c16418f);
+    } */
+
+    .ee{
+      color: #45d3b3;
+      font-size: 14px;
+    }
+
+    .h1{
+      font-weight: 900;
+    
+      
+    }
+
+    .one{
+      color: #45d3b3;
+    }
+  .get{
+    font-size: 14px;
+  }
+
+  .row2{
+    border-radius: 10px;
+    border-color: #3c968265 !important;
+    transition: all 0.3s ease;
+    
+  }
+
+  .row2:hover{
+    transform: scale(1.035);
+  }
+
+  .see{
+    border-radius: 10px;
+    color: #48c5aa;
+  }
+
+  .tex{
+    line-height: 0.8cm;
+  }
+
+  .sec{
+    font-size: 14px;
+  }
+  
+  .bank{
+    color: rgb(241, 103, 52);
+
+  }
+
+.secure{
+  color: rgb(241, 103, 52);
+  background-color: rgba(241, 102, 52, 0.507);
+}
+
+.learn1{
+  color: rgb(241, 103, 52);
+}
+
+.row3{
+  border-color: rgba(241, 102, 52, 0.26) !important;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.row3:hover{
+  transform: scale(1.035);
+}
+
+.router{
+  color: rgba(180, 142, 180, 0.486);
+}
+
+.learn3{
+  color: rgba(180, 142, 180, 0.486);
+}
+
+.row4{
+  border-color: rgba(180, 142, 180, 0.486) !important;
+  border-radius: 10px;
+  transition: all 0.3s ease;
+}
+.row4:hover{
+  transform: scale(1.035);
+}
+
+    
+    
+    
