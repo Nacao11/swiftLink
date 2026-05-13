@@ -1,0 +1,250 @@
+body{
+      background:#0b1026;
+      padding-top: 120px;
+    }
+
+    .custom-navbar{
+      background: linear-gradient(to right,#0b1026,#111b45);
+      padding: 18px 0;
+    }
+    .navbar-toggler {
+  border: 1px solid #36b89b;
+  padding: 4px 8px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 255, 180, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+    .nav-link{
+      color: white !important;
+      font-weight: 500;
+    }
+
+    .nav-link:hover{
+      color:#4fd1c5 !important;
+    }
+
+    .logo{
+      width:40px;
+      height:40px;
+      object-fit:contain;
+    }
+
+    .login-btn{
+      color:white;
+      font-weight:600;
+    }
+
+    .start-btn{
+      background:#45d3b3;
+      border:none;
+      padding:10px 22px;
+      border-radius:14px;
+      font-weight:600;
+      color:white;
+    }
+
+    .start-btn:hover{
+      background:#36b89b;
+    }
+
+    .data{
+      color: #48c5aa !important;
+    }
+
+    .ab{
+        font-size: 14px;
+    }
+
+    .h1{
+        font-weight: 900;
+    }
+
+    form{
+        background-color: #111b45;
+        border: 1px groove  rgb(68, 67, 67);
+        border-radius: 11px;
+    }
+
+    .form button{
+        
+        
+        padding: 10px 33px;
+        border-radius: 14px;
+        font-weight: 600;
+        color: white;
+    }
+
+    .text{
+      background-color:#36b89c1f !important ;
+      color: #45d3b3 !important;
+      
+      border-color: #45d3b28a !important;
+    }
+
+    .airtime-form {
+  background-color: #111b45a1;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+}
+
+.plan-btn {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.2);
+  color: white;
+  padding: 8px 20px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+  font-size: 14px;
+}
+
+.plan-btn.active {
+  background-color: #36b89b;
+  border-color: #36b89b;
+  color: white;
+}
+
+.plan-btn:hover {
+  border-color: #36b89b;
+  color: #36b89b;
+}
+
+.phone-icon {
+  background-color: #0b1026;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-right: none;
+  color: #6c757d;
+}
+
+.phone-input {
+  background-color: #0b1026;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-left: none;
+  color: white;
+}
+
+.phone-input:focus {
+  background-color: #0b1026;
+  border-color: #36b89b;
+  color: white;
+  box-shadow: none;
+}
+
+.phone-input::placeholder {
+  color: #6c757d;
+}
+
+.amount-btn {
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.15);
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.amount-btn.active {
+  background-color: rgba(54,184,155,0.2);
+  border-color: #36b89b;
+  color: #36b89b;
+}
+
+.amount-btn:hover {
+  border-color: #36b89b;
+  color: #36b89b;
+}
+
+.custom-input {
+  background-color: #0b1026;
+  border: 1px solid rgba(255,255,255,0.1);
+  color: white;
+  border-radius: 8px;
+}
+
+.custom-input:focus {
+  background-color: #0b1026;
+  border-color: #36b89b;
+  color: white;
+  box-shadow: none;
+}
+
+.custom-input::placeholder {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.buy-btn {
+  background-color: #36b89b;
+  color: white;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.buy-btn:hover {
+  background-color: #2ea085;
+  color: white;
+}
+
+.sim{
+    color: #45d3b3;
+    background: #45d3b221;
+    border-radius: 12px;
+}
+
+.small1{
+      font-size: 11px;
+    }
+
+    .air{
+        border: 1px groove rgba(255, 255, 255, 0.055);
+        border-radius: 10px;
+         background-color: #111b45a1;
+
+    }
+    .badge{
+        color: #36b89b;
+    }
+
+    ::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #111b45;
+}
+::-webkit-scrollbar-thumb {
+  background: #36b89b;
+  border-radius: 8px;
+  border: 2px groove #0b1026;
+}
+
+.toggle-wrapper {
+  background-color: #111b45;
+  border-radius: 50px;
+  width: fit-content;
+}
+
+.toggle-tab {
+  background: transparent;
+  border: none;
+  color: #6c757d;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.toggle-tab.active {
+  background-color: #36b89b;
+  color: white;
+}
+
+.toggle-tab:hover {
+  color: white;
+}
+
