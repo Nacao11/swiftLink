@@ -285,6 +285,13 @@ textarea.bank-input {
       font-size: 11px;
     }
 
+    /* this applies when screen is 768px or smaller (mobile) */
+@media (max-width: 768px) {
+  .bank{
+    height: fit-content !important;
+  }
+}
+
 
 
 
