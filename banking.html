@@ -77,6 +77,267 @@
       </div>
     </nav>
 
+    <section class="p-2">
+       <div class="d-flex container">
+            <a href="index.html" class="text-decoration-none text-secondary fw-medium ab me-3">Home    ></a>
+            <a href="#" class="data text-decoration-none fw-medium ab">Banking</a>
+        </div>
+
+
+        <div class="container">
+
+
+          <div class="row">
+
+
+            <div class="col-12 col-lg-7">
+
+              <div class="p-3 bank mt-4" style="height: 210px;">
+                <span class="text-secondary ab">TOTAL BALANCE</span>
+
+                <h1 class="display-6 h1 text-light mt-3">₦24,580.00</h1>
+                <span class="text-secondary ab">SwiftLink wallet • ***** 54321</span>
+
+                <div class="d-block d-lg-flex mt-3 ">
+
+                  <div class="d-flex mb-2 mb-lg-0">
+                  <button class="btn btn-sm me-2 btn1 rounded-pill px-3  py-1 fw-medium">
+                    <i class="bi bi-send-fill send  me-2 p-1"> </i>Send Money
+                  </button>
+
+                 <button class="btn btn-sm me-2 btn2 rounded-pill px-3  py-1 fw-medium">
+                    <i class="bi bi-download down   me-2 "> </i>Receive 
+                  </button>
+                  </div>
+
+
+
+                  <div class="d-flex">
+                 <button class="btn btn-sm me-2 btn3 rounded-pill px-3  py-1 fw-medium ">
+                    <i class="bi bi-arrow-right  me-2  exchange "> </i>Exchange
+                  </button>
+
+                  <button class="btn btn-sm me-2 btn4 rounded-pill px-3  py-1 fw-medium ">
+                    <i class="bi bi-clock-history his  me-2  "> </i>History
+                  </button>
+                  </div>
+
+
+                </div>
+                
+              </div>
+
+            </div>
+
+            <div class="col-12 col-lg-5">
+
+              <div class="p-3 mt-4 bank2 " style="height: 210px;">
+                <div>
+                  <span class="ab text-secondary">THIS MONTH</span>
+                </div>
+                <div class="d-flex justify-content-between mb-2 mt-3">
+                <span class=" text-secondary ab "><i class="bi bi-dot dot fs-6 mt-2"></i>Income</span>
+                <span class="dot fw-medium">+₦45,500</span>
+                </div>
+
+                <div class="d-flex justify-content-between">
+                <span class=" text-secondary ab "><i class="bi bi-dot red fs-6 mt-2"></i>Expenses</span>
+                <span class="dot fw-medium red">-₦23,580</span>
+                </div>
+
+
+                <div class="d-flex align-items-end gap-1 mt-4">
+          <div class="bar small"></div>
+          <div class="bar small"></div>
+          <div class="bar"></div>
+          <div class="bar medium"></div>
+          <div class="bar"></div>
+          <div class="bar"></div>
+          <div class="bar tall"></div>
+          <div class="bar taller"></div>
+          <div class="bar medium"></div>
+          <div class="bar small"></div>
+          <div class="bar"></div>
+          <div class="bar "></div>
+          <div class="bar small"></div>
+        </div>
+      </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="row mt-5">
+
+              <div class="col-12 col-lg-6">
+
+                <!-- Send/Receive Toggle -->
+<div class="toggle-wrapper d-flex gap-1 p-1 mb-4">
+  <button type="button" class="toggle-tab active" id="sendTab">Send Money</button>
+  <button type="button" class="toggle-tab" id="receiveTab">Receive Money</button>
+</div>
+
+<!-- Form -->
+<div class="banking-form p-4">
+
+  <!-- Select Bank -->
+  <small class="form-label-text">SELECT BANK</small>
+  <select class="form-select bank-input mt-2 mb-4">
+    <option selected disabled>Choose bank...</option>
+    <option>Access Bank</option>
+    <option>GTBank</option>
+    <option>First Bank</option>
+    <option>Zenith Bank</option>
+    <option>UBA</option>
+    <option>Sterling Bank</option>
+    <option>Kuda Bank</option>
+    <option>Opay</option>
+    <option>Moniepoint</option>
+  </select>
+
+  <!-- Account Number -->
+  <small class="form-label-text">ACCOUNT NUMBER</small>
+  <input type="number" class="form-control bank-input mt-2 mb-4" placeholder="0123456789">
+
+  <!-- Amount -->
+  <small class="form-label-text">AMOUNT (₦)</small>
+  <input type="number" class="form-control bank-input mt-2 mb-4" placeholder="0.00">
+
+  <!-- Note -->
+  <small class="form-label-text">NOTE (OPTIONAL)</small>
+  <textarea class="form-control bank-input mt-2 mb-4" rows="2" placeholder="What's this for?"></textarea>
+
+  <!-- Submit -->
+  <button type="submit" class="btn send-btn w-100">Send Money</button>
+
+</div>
+
+
+</div>
+
+            <div class="col-12 col-lg-5">
+                <h3 class="h5 text-light mb-4 mt-3">Recent transfers</h3>
+
+                <div class="d-flex p-3 air mb-3">
+                             <i class="bi bi-send send2 p-2 fs-6 align-self-start sim"></i>
+                             <div class="me-auto ms-2">
+                          <span class="text-light fw-medium"> Chukwuemeka Obi </span>  <br>
+                          <small class="text-secondary small1">GTBank · Today, 10:32 AM</small>
+                        </div>
+                        
+
+                        <div>
+                          <span class="dark fw-medium">  -₦5000</span> <br>
+                          <span class="ab  text-secondary ms-3 small1">Sent</span>
+                        </div>
+                
+
+                </div>
+
+                 <div class="d-flex p-3 air mb-3">
+                             <i class="bi bi-download p-2 fs-6 align-self-start sim"></i>
+                             <div class="me-auto ms-2">
+                          <span class="text-light fw-medium"> Fatima Aliyu </span>  <br>
+                          <small class="text-secondary small1">Access Bank · Today, 8:15 AM</small>
+                        </div>
+                        
+
+                        <div>
+                          <span class="light fw-medium">  +₦13,000</span> <br>
+                          <span class="ab  text-secondary ms-3 small1">Received</span>
+                        </div>
+                
+
+                </div>
+
+                 <div class="d-flex p-3 air mb-3">
+                             <i class="bi bi-send send2 p-2 fs-6 align-self-start sim"></i>
+                             <div class="me-auto ms-2">
+                          <span class="text-light fw-medium"> Tunde Adeyemi </span>  <br>
+                          <small class="text-secondary small1">Zenith Bank · Yesterday</small>
+                        </div>
+                        
+
+                        <div>
+                          <span class="dark fw-medium">  -₦3,500</span> <br>
+                          <span class="ab  text-secondary ms-3 small1">Sent</span>
+                        </div>
+                
+
+                </div>
+
+                 <div class="d-flex p-3 air mb-3 ">
+                             <i class="bi bi-download p-2 fs-6 sim align-self-start"></i>
+                             <div class="me-auto ms-2">
+                          <span class="text-light fw-medium"> Ngozi Eze </span>  <br>
+                          <small class="text-secondary small1">First Bank · Yesterday</small>
+                        </div>
+                        
+
+                        <div>
+                          <span class="light fw-medium"> +₦8,000</span> <br>
+                          <span class="ab  text-secondary ms-3 small1">Received</span>
+                        </div>
+
+            
+                        </div>
+
+                        <div class="d-flex p-3 air mb-3 ">
+                             <i class="bi bi-send send2 p-2 fs-6 sim align-self-start"></i>
+                             <div class="me-auto ms-2">
+                          <span class="text-light fw-medium"> Babatunde Okafor </span>  <br>
+                          <small class="text-secondary small1">UBA · 2 days ago</small>
+                        </div>
+                        
+
+                        <div>
+                          <span class="dark fw-medium">  -₦3,000</span> <br>
+                          <span class="ab  text-secondary ms-3 small1">Sent</span>
+                        </div>
+
+            
+                        </div>
+
+
+                        
+
+                        
+
+            </div>
+                    
+                </div>
+
+
+
+            </div>
+
+          </div>
+
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </section>
+
 
 
 

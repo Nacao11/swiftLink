@@ -64,3 +64,231 @@ body{
   border-radius: 8px;
   border: 2px groove #0b1026;
 }
+
+
+.bank{
+  background: linear-gradient(to top,#0b1026,#36b89c4b);
+  border-radius: 20px;
+  padding: 20px;
+  border: 1px groove #4fd1c42a;
+  
+}
+
+.h1{
+  font-weight: 900;
+}
+
+.btn1{
+  background-color: #36b89c28;
+  color: #36b89b;
+
+}
+
+.btn1:hover{
+  background-color: #36b89c9a;
+  color: #36b89b;
+  
+}
+.btn2{
+   color: rgb(241, 103, 52);
+  background-color: rgba(241, 102, 52, 0.281);
+}
+.btn2:hover{
+  color: rgb(241, 103, 52);
+  background-color: rgba(241, 102, 52, 0.575);
+  
+}
+
+.btn3{
+  color: gold;
+  background-color: rgba(255, 217, 0, 0.144);
+}
+
+.btn3:hover{
+  color: gold;
+  background-color: rgba(255, 217, 0, 0.486); }
+
+.ab{
+        font-size: 13px;
+    }
+
+    .exchange{
+      
+      border: 1px solid gold;
+      border-radius: 50%;
+      font-size: 13px;
+    }
+
+    .down, .send, .his{
+      font-size: 13px !important;
+    }
+
+    .btn4{
+      color: #4fd1c5;
+      background-color: #4fd1c42c;
+    }
+
+
+    .btn4:hover{
+      color: #4fd1c5;
+      background-color: #4fd1c5a6;
+    }
+
+    .dot{
+      color: #36b89b;
+    }
+
+    .red{
+      color: rgb(241, 103, 52);
+    }
+
+    .bank2{
+      border: 1px groove rgb(63, 63, 63);
+      border-radius: 20px;
+    }
+
+    .bar{
+      width: 35px;
+      height: 30px;
+      background-color: #45d3b28f;
+      border-radius: 3px;
+      opacity: 0.8;
+    }
+    .tall{
+      height: 45px;
+    }
+
+    .taller{
+      height: 50px;
+    
+    }
+    .medium{
+      height: 35px;
+    }
+
+    .small{
+      height: 20px;
+    }
+
+    .toggle-wrapper {
+  background-color: #111b45;
+  border-radius: 50px;
+  width: fit-content;
+}
+
+.toggle-tab {
+  background: transparent;
+  border: none;
+  color: #6c757d;
+  padding: 8px 20px;
+  border-radius: 50px;
+  font-size: 14px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.toggle-tab.active {
+  background-color: #36b89b;
+  color: white;
+}
+
+.toggle-tab:hover {
+  color: white;
+}
+
+.banking-form {
+  background-color: #111b45a1;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  max-width: 600px;
+}
+
+.form-label-text {
+  color: #6c757d;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.bank-input {
+  background-color: #0b1026 !important;
+  border: 1px solid rgba(255, 255, 255, 0.1) !important;
+  color: white !important;
+  border-radius: 8px !important;
+}
+
+.bank-input:focus {
+  background-color: #0b1026 !important;
+  border-color: #36b89b !important;
+  color: white !important;
+  box-shadow: none !important;
+}
+
+.bank-input::placeholder {
+  color: #6c757d !important;
+  font-size: 14px;
+}
+
+/* dropdown arrow */
+.bank-input option {
+  background-color: #111b45;
+  color: white;
+}
+
+textarea.bank-input {
+  resize: none;
+}
+
+.send-btn {
+  background-color: #36b89b;
+  color: white;
+  font-weight: 600;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+  border: none;
+}
+
+.send-btn:hover {
+  background-color: #2ea085;
+  color: white;
+}
+
+
+.air{
+        border: 1px groove rgba(255, 255, 255, 0.055);
+        border-radius: 10px;
+         background-color: #111b45a1;
+    }
+
+    .sim{
+    color: #45d3b3;
+    background: #45d3b221;
+    border-radius: 12px;
+}
+.send2{
+  color: rgb(241, 103, 52);
+  background-color: rgba(241, 102, 52, 0.281);
+}
+
+
+.light{
+  color: #4fd1c5;
+}
+
+.dark{
+  color: rgb(241, 103, 52);
+}
+
+.small1{
+      font-size: 11px;
+    }
+
+
+
+
+    
+
+
+   
