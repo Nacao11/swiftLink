@@ -1,57 +1,237 @@
-body{
-      background:#0b1026;
-      padding-top: 120px;
-    }
+/* =========================
+   SIDEBAR / OFFCANVAS
+========================= */
 
-    .custom-navbar{
-      background: linear-gradient(to right,#0b1026,#111b45);
-      padding: 18px 0;
-    }
-    .navbar-toggler {
-  border: 1px solid #36b89b;
-  padding: 4px 8px;
+:root{
+  --sidebar:#08113f;
+  --border:rgba(255,255,255,0.08);
+  --green:#00e0a4;
 }
 
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 255, 180, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+/* DESKTOP SIDEBAR */
+
+.sidebar{
+  width:260px;
+  background:var(--sidebar);
+  border-right:1px solid var(--border);
 }
 
-    .nav-link{
-      color: white !important;
-      font-weight: 500;
-    }
+.sidebar-lg-fixed{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  z-index:1040;
+}
 
-    .nav-link:hover{
-      color:#4fd1c5 !important;
-    }
+/* MOBILE OFFCANVAS */
 
-    .logo{
-      width:40px;
-      height:40px;
-      object-fit:contain;
-    }
+.offcanvas{
+  width:260px !important;
+  background:var(--sidebar);
+  color:#fff;
+  border-right:1px solid var(--border); 
+}
 
-    .login-btn{
-      color:white;
-      font-weight:600;
-    }
+.offcanvas-header{
+  height:60px;
+  border-bottom:1px solid var(--border);
+}
 
-    .start-btn{
-      background:#45d3b3;
-      border:none;
-      padding:10px 22px;
-      border-radius:14px;
-      font-weight:600;
-      color:white;
-    }
+.offcanvas-body{
+  overflow-y:auto;
+}
 
-    .start-btn:hover{
-      background:#36b89b;
-    }
+/* LOGO */
 
-    .data{
-      color: #48c5aa !important;
-    }
+.logo{
+  height:60px;
+  border-bottom:1px solid var(--border);
+}
+
+.brand-icon{
+  width:32px;
+  height:32px;
+  border-radius:10px;
+  background:#0fd39a;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  font-size:13px;
+}
+
+.brand-text{
+  font-size:18px;
+  color:#fff;
+}
+
+/* USER */
+
+.user-box{
+  padding:16px;
+  border-bottom:1px solid var(--border);
+}
+
+.avatar{
+  width:34px;
+  height:34px;
+  border-radius:50%;
+  background:#0fd39a;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  font-size:12px;
+  font-weight:700;
+}
+
+.user-name{
+  font-size:13px;
+  font-weight:600;
+  color:#fff;
+}
+
+.user-email{
+  font-size:11px;
+  color:#8e99cb;
+}
+
+/* MENU */
+
+.menu-title{
+  color:#6673a8;
+  font-size:10px;
+  letter-spacing:1px;
+  margin-bottom:10px;
+}
+
+.sidebar-menu{
+  padding-left:0;
+  margin-bottom:0;
+}
+
+.sidebar-menu li{
+  list-style:none;
+}
+
+/* LINKS */
+
+.nav-link-custom{
+  color:#d8deff;
+  padding:10px 12px;
+  border-radius:12px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  transition:0.3s;
+  margin-bottom:4px;
+  font-size:12px;
+  text-decoration: none !important;
+}
+
+.nav-link-custom:hover{
+  background:#0f1d5f;
+  color:#fff;
+}
+
+.nav-link-custom.active{
+  
+  color:var(--green);
+  
+}
+
+.nav-link-custom i{
+  font-size:13px;
+}
+
+.left{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+/* LOGOUT */
+
+.logout{
+  border-top:1px solid var(--border);
+}
+
+/* MAIN CONTENT OFFSET */
+
+.main-content{
+  min-height:100vh;
+}
+
+@media(min-width:992px){
+
+  .main-content{
+    margin-left:260px;
+  }
+
+}
+
+.main-content{
+  min-height:100vh;
+}
+
+@media(min-width:992px){
+
+  .main-content{
+    margin-left:260px;
+  }
+
+}
+
+/* =========================
+   TOPBAR
+========================= */
+
+.topbar{
+  height:60px;
+  border-bottom:1px solid var(--border);
+  background:rgba(4,10,40,0.95);
+  backdrop-filter:blur(10px);
+}
+
+.mobile-toggle{
+  width:38px;
+  height:38px;
+  border:none;
+  border-radius:10px;
+  background:#0f1d5f;
+  color:#fff;
+}
+
+.icon-btn{
+  width:36px;
+  height:36px;
+  border:none;
+  border-radius:50%;
+  background:#0f1d5f;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.welcome-text{
+  color:#98a2d4;
+  font-size:11px;
+}
+
+.welcome-name{
+  font-size:13px;
+  font-weight:600;
+}
+
+section{
+    background-color: #0b1026;
+}
+
+main{
+    background-color: #0b1026;
+}
 
      ::-webkit-scrollbar {
   width: 15px;
@@ -316,110 +496,16 @@ textarea.bank-input {
     display: block;
   }
 }
-
-
-
-/* Menu Links */
-.ul {
-  font-size: 14px !important;
-  transition: all 0.3s ease;
+  ::-webkit-scrollbar {
+  width: 15px;
 }
-
-.ul a {
-  color: rgb(175, 175, 175);
-  display: block;
-  
-   
+::-webkit-scrollbar-track {
+  background: #111b45;
 }
-
-.ul i {
-  padding-left: 10px !important;
-}
-
-.ul a:hover {
-  background-color: rgba(128, 128, 128, 0.123);
-  border-radius: 10px;
- 
-}
-
-/* Active link */
-.linkk {
-  color: #36b89b !important;
-}
-
-/* Sign out border */
-.signout {
-  border-top: 1px groove rgba(255, 255, 255, 0.096) !important;
-}
-
-/* Transfer button */
-.trans {
-  background-color: rgba(255, 255, 255, 0.096) !important;
-}
-
-/* Menu scroll section */
-.scroll {
-  border-top: 1px groove rgba(255, 255, 255, 0.096) !important;
-}
-
-/* Fund wallet button */
-.btn11 {
-  background-color: #36b89b !important;
-}
-
- .icon{
-        background: linear-gradient(to right , #38dbb8, #437066);
-        -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
- }
-
-
- .bb{
-      border-radius: 15px !important;
-      border: 1px solid rgb(56, 55, 55) !important;
-      transition: all 0.3s ease;
-    }
-    .bb:hover{
-      border-color: #48c5aa !important;
-      box-shadow: 0 0 10px #3c9682 !important;
-    }
-
-    .list-unstyled{
-  line-height: 0.9cm;
-  font-size: 13px;
-}
-
-.badge{
-      background-color: #437066d2;
-      color: #45d3b3;
-    }
-
-    .offcanvas{
-  background-color: #0b1026;
-  width: 330px !important; ;
-}
-
-.offcanvas-header{
-  border-bottom: 1px groove rgba(255,255,255,0.2) !important;
-
-}
-
-/* Offcanvas Container */
-.offcanvas {
-  background-color: #0b1026;
-  width: 330px !important;
-}
-
-.offcanvas-header {
-  border-bottom: 1px groove rgba(255, 255, 255, 0.2) !important;
+::-webkit-scrollbar-thumb {
+  background: #36b89b;
+  border-radius: 8px;
+  border: 2px groove #0b1026;
 }
 
 
-
-
-
-
-    
-
-
-   

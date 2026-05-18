@@ -288,6 +288,10 @@ body{
   
 }
 
+.h3{
+  font-weight: 900;
+}
+
 .charge{
   color: rgba(180, 142, 180, 0.486);
 }

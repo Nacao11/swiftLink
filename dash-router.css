@@ -1,0 +1,412 @@
+/* =========================
+   SIDEBAR / OFFCANVAS
+========================= */
+
+:root{
+  --sidebar:#08113f;
+  --border:rgba(255,255,255,0.08);
+  --green:#00e0a4;
+}
+
+/* DESKTOP SIDEBAR */
+
+.sidebar{
+  width:260px;
+  background:var(--sidebar);
+  border-right:1px solid var(--border);
+}
+
+.sidebar-lg-fixed{
+  position:fixed;
+  top:0;
+  left:0;
+  bottom:0;
+  z-index:1040;
+}
+
+/* MOBILE OFFCANVAS */
+
+.offcanvas{
+  width:260px !important;
+  background:var(--sidebar);
+  color:#fff;
+  border-right:1px solid var(--border);
+}
+
+.offcanvas-header{
+  height:60px;
+  border-bottom:1px solid var(--border);
+}
+
+.offcanvas-body{
+  overflow-y:auto;
+}
+
+/* LOGO */
+
+.logo{
+  height:60px;
+  border-bottom:1px solid var(--border);
+}
+
+.brand-icon{
+  width:32px;
+  height:32px;
+  border-radius:10px;
+  background:#0fd39a;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  font-size:13px;
+}
+
+.brand-text{
+  font-size:18px;
+  color:#fff;
+}
+
+/* USER */
+
+.user-box{
+  padding:16px;
+  border-bottom:1px solid var(--border);
+}
+
+.avatar{
+  width:34px;
+  height:34px;
+  border-radius:50%;
+  background:#0fd39a;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  font-size:12px;
+  font-weight:700;
+}
+
+.user-name{
+  font-size:13px;
+  font-weight:600;
+  color:#fff;
+}
+
+.user-email{
+  font-size:11px;
+  color:#8e99cb;
+}
+
+/* MENU */
+
+.menu-title{
+  color:#6673a8;
+  font-size:10px;
+  letter-spacing:1px;
+  margin-bottom:10px;
+}
+
+.sidebar-menu{
+  padding-left:0;
+  margin-bottom:0;
+}
+
+.sidebar-menu li{
+  list-style:none;
+}
+
+/* LINKS */
+
+.nav-link-custom{
+  color:#d8deff;
+  padding:10px 12px;
+  border-radius:12px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  transition:0.3s;
+  margin-bottom:4px;
+  font-size:12px;
+  text-decoration: none !important;
+}
+
+.nav-link-custom:hover{
+  background:#0f1d5f;
+  color:#fff;
+}
+
+.nav-link-custom.active{
+  
+  color:var(--green);
+  
+}
+
+.nav-link-custom i{
+  font-size:13px;
+}
+
+.left{
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+
+/* LOGOUT */
+
+.logout{
+  border-top:1px solid var(--border);
+}
+
+/* MAIN CONTENT OFFSET */
+
+.main-content{
+  min-height:100vh;
+}
+
+@media(min-width:992px){
+
+  .main-content{
+    margin-left:260px;
+  }
+
+}
+
+.main-content{
+  min-height:100vh;
+}
+
+@media(min-width:992px){
+
+  .main-content{
+    margin-left:260px;
+  }
+
+}
+
+/* =========================
+   TOPBAR
+========================= */
+
+.topbar{
+  height:60px;
+  border-bottom:1px solid var(--border);
+  background:rgba(4,10,40,0.95);
+  backdrop-filter:blur(10px);
+}
+
+.mobile-toggle{
+  width:38px;
+  height:38px;
+  border:none;
+  border-radius:10px;
+  background:#0f1d5f;
+  color:#fff;
+}
+
+.icon-btn{
+  width:36px;
+  height:36px;
+  border:none;
+  border-radius:50%;
+  background:#0f1d5f;
+  color:#fff;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.welcome-text{
+  color:#98a2d4;
+  font-size:11px;
+}
+
+.welcome-name{
+  font-size:13px;
+  font-weight:600;
+}
+
+.data{
+      color: #48c5aa !important;
+    }
+
+     ::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #111b45;
+}
+::-webkit-scrollbar-thumb {
+  background: #36b89b;
+  border-radius: 8px;
+  border: 2px groove #0b1026;
+}
+
+.ab{
+        font-size: 13px;
+    }
+    .h1{
+      font-weight: 900;
+    }
+
+    .div1{
+      background-color: #111b4573;
+      border: 1px groove rgba(128, 128, 128, 0.171);
+      border-radius: 12px;
+    }
+
+     .simm{
+    color: #45d3b3;
+    background: #45d3b221;
+    border-radius: 12px;
+}
+.span{
+  font-weight: 900;
+}
+
+.small1{
+      font-size: 13px;
+    }
+
+    .send2{
+  color: rgb(241, 103, 52);
+  background-color: rgba(241, 102, 52, 0.281);
+  border-radius: 12px;
+}
+
+.act{
+  color: gold;
+  background-color: rgba(255, 217, 0, 0.144);
+  border-radius: 12px;
+}
+
+
+.speed-chart {
+  display: flex;
+  align-items: flex-start; /* align to TOP */
+  gap: 8px;
+  height: 150px;
+}
+
+.time-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* start from TOP */
+  flex: 1;
+  height: 100%;
+}
+
+.bar-download {
+  width: 100%;
+  background-color:rgba(241, 102, 52, 0.384);
+  border-radius: 4px 4px 0 0;
+  transform: scaleY(-1);
+  margin-top: 3px;
+  
+  
+}
+
+.bar-upload {
+  width: 100%;
+  background-color:  #36b89c88;
+  border-radius: 4px 4px 0 0;
+}
+
+.time-label {
+  font-size: 11px;
+  margin-top: 6px;
+  white-space: nowrap;
+}
+
+ .air{
+        border: 1px groove rgba(255, 255, 255, 0.055);
+        border-radius: 10px;
+         background-color: #111b45a1;
+         transition: all 0.4s ease;
+
+    }
+
+    .air:hover{
+      border-color: rgba(255, 255, 255, 0.185);
+
+
+
+
+
+
+    }
+
+    .form-check-input:checked {
+  background-color: #36b89b !important;
+  border-color: #36b89b !important;
+}
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(54, 184, 155, 0.25) !important;
+}
+
+
+    .bad{
+      color: #4fd1c5;
+    }
+
+
+    .wifi-form {
+  background-color: #111b45a1;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+}
+
+.wifi-input-group {
+  background-color: #0b1026;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+}
+
+.freq-btn {
+  background-color: #0b1026;
+  border: 1px solid rgba(255,255,255,0.1);
+  color: #6c757d;
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.freq-btn.active {
+  background-color: rgba(54,184,155,0.15);
+  border-color: #36b89b;
+  color: #36b89b;
+}
+
+.freq-btn:hover {
+  border-color: #36b89b;
+  color: #36b89b;
+}
+
+.success{
+  color: #36b89b;
+}
+
+/* Active link */
+.linkk {
+  color: #36b89b !important;
+}
+
+section{
+    background-color: #0b1026;
+}
+
+main{
+    background-color: #0b1026;
+}
+
+  ::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #111b45;
+}
+::-webkit-scrollbar-thumb {
+  background: #36b89b;
+  border-radius: 8px;
+  border: 2px groove #0b1026;
+}

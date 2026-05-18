@@ -1,0 +1,309 @@
+body{
+      background:#0b1026;
+      padding-top: 120px;
+    }
+
+    .custom-navbar{
+      background: linear-gradient(to right,#0b1026,#111b45);
+      padding: 18px 0;
+    }
+    .navbar-toggler {
+  border: 1px solid #36b89b;
+  padding: 4px 8px;
+}
+
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='rgba(0, 255, 180, 1)' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+
+    .nav-link{
+      color: white !important;
+      font-weight: 500;
+    }
+
+    .nav-link:hover{
+      color:#4fd1c5 !important;
+    }
+
+    .logo{
+      width:40px;
+      height:40px;
+      object-fit:contain;
+    }
+
+    .login-btn{
+      color:white;
+      font-weight:600;
+    }
+
+    .start-btn{
+      background:#45d3b3;
+      border:none;
+      padding:10px 22px;
+      border-radius:14px;
+      font-weight:600;
+      color:white;
+    }
+
+    .start-btn:hover{
+      background:#36b89b;
+    }
+
+    .data{
+      color: #48c5aa !important;
+    }
+
+     ::-webkit-scrollbar {
+  width: 15px;
+}
+::-webkit-scrollbar-track {
+  background: #111b45;
+}
+::-webkit-scrollbar-thumb {
+  background: #36b89b;
+  border-radius: 8px;
+  border: 2px groove #0b1026;
+}
+
+.ab{
+        font-size: 13px;
+    }
+    .h1{
+      font-weight: 900;
+    }
+
+    .div1{
+      background-color: #111b4573;
+      border: 1px groove rgba(128, 128, 128, 0.171);
+      border-radius: 12px;
+    }
+
+     .simm{
+    color: #45d3b3;
+    background: #45d3b221;
+    border-radius: 12px;
+}
+.span{
+  font-weight: 900;
+}
+
+.small1{
+      font-size: 13px;
+    }
+
+    .send2{
+  color: rgb(241, 103, 52);
+  background-color: rgba(241, 102, 52, 0.281);
+  border-radius: 12px;
+}
+
+.act{
+  color: gold;
+  background-color: rgba(255, 217, 0, 0.144);
+  border-radius: 12px;
+}
+
+
+.speed-chart {
+  display: flex;
+  align-items: flex-start; /* align to TOP */
+  gap: 8px;
+  height: 150px;
+}
+
+.time-bar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* start from TOP */
+  flex: 1;
+  height: 100%;
+}
+
+.bar-download {
+  width: 100%;
+  background-color:rgba(241, 102, 52, 0.384);
+  border-radius: 4px 4px 0 0;
+  transform: scaleY(-1);
+  margin-top: 3px;
+  
+  
+}
+
+.bar-upload {
+  width: 100%;
+  background-color:  #36b89c88;
+  border-radius: 4px 4px 0 0;
+}
+
+.time-label {
+  font-size: 11px;
+  margin-top: 6px;
+  white-space: nowrap;
+}
+
+ .air{
+        border: 1px groove rgba(255, 255, 255, 0.055);
+        border-radius: 10px;
+         background-color: #111b45a1;
+         transition: all 0.4s ease;
+
+    }
+
+    .air:hover{
+      border-color: rgba(255, 255, 255, 0.185);
+
+
+
+
+
+
+    }
+
+    .form-check-input:checked {
+  background-color: #36b89b !important;
+  border-color: #36b89b !important;
+}
+.form-check-input:focus {
+  box-shadow: 0 0 0 0.25rem rgba(54, 184, 155, 0.25) !important;
+}
+
+
+    .bad{
+      color: #4fd1c5;
+    }
+
+
+    .wifi-form {
+  background-color: #111b45a1;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 12px;
+}
+
+.wifi-input-group {
+  background-color: #0b1026;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 8px;
+}
+
+.freq-btn {
+  background-color: #0b1026;
+  border: 1px solid rgba(255,255,255,0.1);
+  color: #6c757d;
+  padding: 10px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.freq-btn.active {
+  background-color: rgba(54,184,155,0.15);
+  border-color: #36b89b;
+  color: #36b89b;
+}
+
+.freq-btn:hover {
+  border-color: #36b89b;
+  color: #36b89b;
+}
+
+.success{
+  color: #36b89b;
+}
+
+/* Active link */
+.linkk {
+  color: #36b89b !important;
+}
+
+/* Sign out border */
+.signout {
+  border-top: 1px groove rgba(255, 255, 255, 0.096) !important;
+}
+
+/* Transfer button */
+.trans {
+  background-color: rgba(255, 255, 255, 0.096) !important;
+}
+
+/* Menu scroll section */
+.scroll {
+  border-top: 1px groove rgba(255, 255, 255, 0.096) !important;
+}
+
+/* Fund wallet button */
+.btn11 {
+  background-color: #36b89b !important;
+}
+
+ .icon{
+        background: linear-gradient(to right , #38dbb8, #437066);
+        -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+ }
+
+
+ .bb{
+      border-radius: 15px !important;
+      border: 1px solid rgb(56, 55, 55) !important;
+      transition: all 0.3s ease;
+    }
+    .bb:hover{
+      border-color: #48c5aa !important;
+      box-shadow: 0 0 10px #3c9682 !important;
+    }
+
+    .list-unstyled{
+  line-height: 0.9cm;
+  font-size: 13px;
+}
+
+.badge{
+      background-color: #437066d2;
+      color: #45d3b3;
+    }
+
+    .offcanvas{
+  background-color: #0b1026;
+  width: 330px !important; ;
+}
+
+.offcanvas-header{
+  border-bottom: 1px groove rgba(255,255,255,0.2) !important;
+
+}
+
+/* Offcanvas Container */
+.offcanvas {
+  background-color: #0b1026;
+  width: 330px !important;
+}
+
+.offcanvas-header {
+  border-bottom: 1px groove rgba(255, 255, 255, 0.2) !important;
+}
+
+.ul {
+  font-size: 14px !important;
+  transition: all 0.3s ease;
+}
+
+.ul a {
+  color: rgb(175, 175, 175);
+  display: block;
+  
+   
+}
+
+.ul i {
+  padding-left: 10px !important;
+}
+
+.ul a:hover {
+  background-color: rgba(128, 128, 128, 0.123);
+  border-radius: 10px;
+ 
+}
+
+
+
+

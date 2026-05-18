@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <title>SwiftLink Dashboard</title>
+
+  <!-- Bootstrap CSS -->
+  <link
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+  />
+
+  <!-- Bootstrap Icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+  />
+
+  <!-- External CSS -->
+  <link rel="stylesheet" href="dash-wallet.css" />
+</head>
+<body>
+    <!-- =========================
+     DESKTOP SIDEBAR
+========================= -->
+
+<aside class="sidebar sidebar-lg-fixed d-none d-lg-flex flex-column">
+
+  <!-- Logo -->
+  <div class="logo d-flex align-items-center px-3 gap-2">
+
+    <div class="brand-icon">
+      <i class="bi bi-lightning-charge-fill"></i>
+    </div>
+
+    <h5 class="brand-text mb-0 fw-bold">
+      SwiftLink
+    </h5>
+
+  </div>
+
+  <!-- User -->
+  <div class="user-box d-flex align-items-center gap-2">
+
+    <div class="avatar">
+      C
+    </div>
+
+    <div>
+      <h6 class="user-name mb-0">
+        Chinedu A.
+      </h6>
+
+      <small class="user-email">
+        chinedu@email.com
+      </small>
+    </div>
+
+  </div>
+
+  <!-- Sidebar Menu -->
+  <div class="p-3 flex-grow-1 overflow-y-scroll">
+
+    <p class="menu-title">
+      MENU
+    </p>
+
+    <ul class="list-unstyled sidebar-menu">
+
+      <li>
+        <a href="dash.html" class="nav-link-custom ">
+
+          <div class="left">
+            <i class="bi bi-speedometer2"></i>
+            Dashboard
+          </div>
+
+          
+
+        </a>
+      </li>
+
+      <li>
+        <a href="dash-airtime&data.html" class="nav-link-custom">
+
+          <div class="left">
+            <i class="bi bi-phone"></i>
+            Airtime & Data
+          </div>
+
+        </a>
+      </li>
+
+      <li>
+        <a href="dash-banking.html" class="nav-link-custom">
+
+          <div class="left">
+            <i class="bi bi-bank"></i>
+            Banking
+          </div>
+
+        </a>
+      </li>
+
+      <li>
+        <a href="dash-router.html" class="nav-link-custom">
+
+          <div class="left">
+            <i class="bi bi-router"></i>
+            Router
+          </div>
+
+        </a>
+      </li>
+
+      <li>
+        <a href="dash-transactions.html" class="nav-link-custom">
+
+          <div class="left">
+            <i class="bi bi-arrow-left-right"></i>
+            Transactions
+          </div>
+
+        </a>
+      </li>
+
+      <li>
+        <a href="dash-wallet.html" class="nav-link-custom active">
+
+          <div class="left">
+            <i class="bi bi-wallet2"></i>
+            Wallet
+          </div>
+          <i class="bi bi-chevron-right"></i>
+
+        </a>
+      </li>
+
+    </ul>
+
+    <!-- ACCOUNT -->
+    <div class="mt-4">
+
+      <p class="menu-title">
+        ACCOUNT
+      </p>
+
+      <ul class="list-unstyled sidebar-menu">
+
+        <li>
+          <a href="dash-settings.html" class="nav-link-custom">
+
+            <div class="left">
+              <i class="bi bi-gear"></i>
+              Settings
+            </div>
+
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="nav-link-custom">
+
+            <div class="left">
+              <i class="bi bi-headset"></i>
+              Support
+            </div>
+
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+  <!-- Logout -->
+  <div class="logout p-3">
+
+    <a href="index.html" class="nav-link-custom text-danger mb-0">
+
+      <div class="left">
+        <i class="bi bi-box-arrow-left"></i>
+        Sign out
+      </div>
+
+    </a>
+
+  </div>
+
+</aside>
+
+<!-- =========================
+     MOBILE OFFCANVAS
+========================= -->
+
+<div
+  class="offcanvas offcanvas-start d-lg-none"
+  tabindex="-1"
+  id="mobileSidebar"
+>
+
+  <div class="offcanvas-header">
+
+    <div class="d-flex align-items-center gap-2">
+
+      <div class="brand-icon">
+        <i class="bi bi-lightning-charge-fill"></i>
+      </div>
+
+      <h5 class="brand-text mb-0 fw-bold">
+        SwiftLink
+      </h5>
+
+    </div>
+
+    <button
+      type="button"
+      class="btn-close btn-close-white"
+      data-bs-dismiss="offcanvas"
+    ></button>
+
+  </div>
+
+  <div class="offcanvas-body p-0">
+
+    <!-- User -->
+    <div class="user-box d-flex align-items-center gap-2">
+
+      <div class="avatar">
+        C
+      </div>
+
+      <div>
+        <h6 class="user-name mb-0">
+          Chinedu A.
+        </h6>
+
+        <small class="user-email">
+          chinedu@email.com
+        </small>
+      </div>
+
+    </div>
+
+    <!-- Menu -->
+    <div class="p-3">
+
+      <p class="menu-title">
+        MENU
+      </p>
+
+      <ul class="list-unstyled sidebar-menu">
+
+        <li>
+          <a href="#" class="nav-link-custom active ">
+
+            <div class="left">
+              <i class="bi bi-speedometer2"></i>
+              Dashboard
+            </div>
+
+            <i class="bi bi-chevron-right"></i>
+
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="nav-link-custom">
+
+            <div class="left">
+              <i class="bi bi-phone"></i>
+              Airtime & Data
+            </div>
+
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="nav-link-custom">
+
+            <div class="left">
+              <i class="bi bi-bank"></i>
+              Banking
+            </div>
+
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="nav-link-custom">
+
+            <div class="left">
+              <i class="bi bi-router"></i>
+              Router
+            </div>
+
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="nav-link-custom">
+
+            <div class="left">
+              <i class="bi bi-arrow-left-right"></i>
+              Transactions
+            </div>
+
+          </a>
+        </li>
+
+        <li>
+          <a href="#" class="nav-link-custom">
+
+            <div class="left">
+              <i class="bi bi-wallet2"></i>
+              Wallet
+            </div>
+
+          </a>
+        </li>
+
+      </ul>
+
+    </div>
+
+  </div>
+
+</div>
+
+
+  <!-- =========================
+       MAIN CONTENT
+  ========================== -->
+
+  <main class="main-content">
+
+    <!-- TOPBAR -->
+    <div class="topbar d-flex align-items-center justify-content-between px-3 px-lg-4">
+
+      <div class="d-flex align-items-center gap-3">
+
+        <!-- Mobile Toggle -->
+        <button
+          class="mobile-toggle d-lg-none"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#mobileSidebar"
+        >
+          <i class="bi bi-list"></i>
+        </button>
+
+        <div>
+          <p class="welcome-text mb-0 text-secondary">
+            Welcome back,
+          </p>
+
+          <h6 class="welcome-name mb-0 text-light">
+        Chinedu
+          </h6>
+        </div>
+
+      </div>
+
+      <div class="d-flex align-items-center gap-3">
+
+        <button class="icon-btn position-relative">
+
+          <i class="bi bi-bell"></i>
+
+          <span
+            class="position-absolute top-0 start-100 translate-middle p-1 bg-success border border-dark rounded-circle"
+          ></span>
+
+        </button>
+
+        <div class="avatar">
+          C
+        </div>
+
+      </div>
+
+    </div>
+
+    <section class="main-content p-4">
+
+  <!-- Title -->
+  <h2 class="text-light fw-bold">Wallet</h2>
+  <p class="text-secondary">Manage your SwiftLink wallet balance.</p>
+
+  <!-- Balance Card -->
+  <div class="wallet-balance-card p-4 mt-3">
+    <small class="text-secondary" style="font-size: 11px; letter-spacing: 1px;">AVAILABLE BALANCE</small>
+    <h1 class="text-light fw-bold display-5 mt-2">₦24,580.00</h1>
+    <small class="text-secondary">SwiftLink Wallet · **** 4521</small>
+    <div class="d-flex flex-wrap gap-2 mt-4">
+      <button class="btn wallet-btn-primary">
+        <i class="bi bi-plus me-2"></i>Fund Wallet
+      </button>
+      <button class="btn wallet-btn-secondary">
+        <i class="bi bi-send-fill me-2"></i>Transfer
+      </button>
+      <button class="btn wallet-btn-secondary">
+        <i class="bi bi-copy me-2"></i>Copy Account
+      </button>
+    </div>
+  </div>
+
+  <!-- Stats Cards -->
+  <div class="row g-3 mt-3">
+    <div class="col-6 col-lg-3">
+      <div class="stat-card p-3">
+        <div class="stat-icon green-icon mb-3">
+          <i class="bi bi-plus-circle"></i>
+        </div>
+        <h5 class="text-light fw-bold">₦145,000</h5>
+        <small class="text-secondary">Total Funded</small>
+      </div>
+    </div>
+    <div class="col-6 col-lg-3">
+      <div class="stat-card p-3">
+        <div class="stat-icon red-icon mb-3">
+          <i class="bi bi-record-circle"></i>
+        </div>
+        <h5 class="text-light fw-bold">₦120,420</h5>
+        <small class="text-secondary">Total Spent</small>
+      </div>
+    </div>
+    <div class="col-6 col-lg-3">
+      <div class="stat-card p-3">
+        <div class="stat-icon orange-icon mb-3">
+          <i class="bi bi-send-fill"></i>
+        </div>
+        <h5 class="text-light fw-bold">₦85,200</h5>
+        <small class="text-secondary">Transfers Out</small>
+      </div>
+    </div>
+    <div class="col-6 col-lg-3">
+      <div class="stat-card p-3">
+        <div class="stat-icon teal-icon mb-3">
+          <i class="bi bi-arrow-down"></i>
+        </div>
+        <h5 class="text-light fw-bold">₦65,200</h5>
+        <small class="text-secondary">Transfers In</small>
+      </div>
+    </div>
+  </div>
+
+  <!-- Recent Wallet Activity -->
+  <h6 class="text-light fw-bold mt-4 mb-3">Recent Wallet Activity</h6>
+  <div class="activity-list">
+
+    <div class="activity-item d-flex align-items-center justify-content-between p-3">
+      <div class="d-flex align-items-center gap-3">
+        <div class="stat-icon green-icon">
+          <i class="bi bi-arrow-down"></i>
+        </div>
+        <div>
+          <span class="text-light fw-medium">Transfer Received</span><br>
+          <small class="text-secondary">From Fatima Aliyu · Today, 8:15 AM</small>
+        </div>
+      </div>
+      <span class="text-success fw-bold">+₦12,000</span>
+    </div>
+
+    <div class="activity-item d-flex align-items-center justify-content-between p-3">
+      <div class="d-flex align-items-center gap-3">
+        <div class="stat-icon red-icon">
+          <i class="bi bi-arrow-up"></i>
+        </div>
+        <div>
+          <span class="text-light fw-medium">Airtime — MTN</span><br>
+          <small class="text-secondary">0801 234 5678 · Today, 10:45 AM</small>
+        </div>
+      </div>
+      <span class="text-light fw-bold">₦500</span>
+    </div>
+
+    <div class="activity-item d-flex align-items-center justify-content-between p-3">
+      <div class="d-flex align-items-center gap-3">
+        <div class="stat-icon green-icon">
+          <i class="bi bi-arrow-down"></i>
+        </div>
+        <div>
+          <span class="text-light fw-medium">Transfer Received</span><br>
+          <small class="text-secondary">From Ngozi Eze · Yesterday</small>
+        </div>
+      </div>
+      <span class="text-success fw-bold">+₦8,000</span>
+    </div>
+
+    <div class="activity-item d-flex align-items-center justify-content-between p-3">
+      <div class="d-flex align-items-center gap-3">
+        <div class="stat-icon red-icon">
+          <i class="bi bi-arrow-up"></i>
+        </div>
+        <div>
+          <span class="text-light fw-medium">Data Bundle — Airtel</span><br>
+          <small class="text-secondary">1GB · 0802 345 6789 · Yesterday</small>
+        </div>
+      </div>
+      <span class="text-light fw-bold">₦300</span>
+    </div>
+
+    <div class="activity-item d-flex align-items-center justify-content-between p-3">
+      <div class="d-flex align-items-center gap-3">
+        <div class="stat-icon red-icon">
+          <i class="bi bi-arrow-up"></i>
+        </div>
+        <div>
+          <span class="text-light fw-medium">Transfer Sent</span><br>
+          <small class="text-secondary">To Tunde Adeyemi · 2 days ago</small>
+        </div>
+      </div>
+      <span class="text-light fw-bold">₦3,500</span>
+    </div>
+
+  </div>
+
+</section>
+
+  </main>
+
+
+     <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
