@@ -209,6 +209,23 @@ body{
   color: #36b89b !important;
 }
 
+.brand-icon{
+  width:32px;
+  height:32px;
+  border-radius:10px;
+  background:#0fd39a;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  font-size:13px;
+}
+
+.brand-text{
+  font-size:18px;
+  color:#fff;
+}
+
 /* Sign out border */
 .signout {
   border-top: 1px groove rgba(255, 255, 255, 0.096) !important;

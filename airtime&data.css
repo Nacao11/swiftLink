@@ -259,6 +259,23 @@ body{
   color: white;
 }
 
+.brand-icon{
+  width:32px;
+  height:32px;
+  border-radius:10px;
+  background:#0fd39a;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  color:#fff;
+  font-size:13px;
+}
+
+.brand-text{
+  font-size:18px;
+  color:#fff;
+}
+
 
 
 .offcanvas{
